@@ -9,12 +9,14 @@ Daxil edilən məlumat hərf və ya simvoldur.
 Məsələn: info="\" yazdıqda cavab bu şəkildə olmalıdır:
 Daxil edilən məlumat hərf və ya simvoldur. */
 
-let a = 12;
 
-if (typeof (a) === "number") {
-    console.log("daxil edilen məlumat reqemdir.")
-} else if (typeof (a) === "string") {
-    console.log("daxil edilen məlumat herf və ya simvoldur.")
-} else {
-    console.log("melumat yanlisdir!!")
+
+let info = 6;
+
+if (info >= 'a' && info <= 'z' || info >= 'A' && info <= 'Z') {
+    console.log("Daxil edilen melumat herfdir.")
+} else if (info >= 0) {
+    console.log("Daxil edilen melumat reqemdir.")
+}else{
+    console.log("Daxil edilen melumat simvoldur.")
 }
