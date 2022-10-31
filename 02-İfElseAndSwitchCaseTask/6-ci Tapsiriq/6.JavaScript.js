@@ -11,12 +11,12 @@ Daxil edilən məlumat hərf və ya simvoldur. */
 
 
 
-let info = 6;
+let info = "jkhjkhkhjhjbbAAddfz";
 
 if (info >= 'a' && info <= 'z' || info >= 'A' && info <= 'Z') {
     console.log("Daxil edilen melumat herfdir.")
-} else if (info >= 0) {
+} else if (info >= 0 && info < 0) {
     console.log("Daxil edilen melumat reqemdir.")
-}else{
+} else {
     console.log("Daxil edilen melumat simvoldur.")
 }
